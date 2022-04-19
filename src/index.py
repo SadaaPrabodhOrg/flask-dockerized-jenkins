@@ -13,9 +13,9 @@ def hello():
 
 @app.route('/')
 def hello2():
-    html = "<h3>Hello {name}!</h3>" \
+    html = "<h3>Hello ferozekhan {name}!</h3>" \
            "<b>Hostname:</b> {hostname}<br/>"
-    return html.format(name=os.getenv("NAME", "world"), hostname=socket.gethostname())
+    return html.format(name=os.getenv("NAME", " ferozekhan world"), hostname=socket.gethostname())
 
 
 if __name__ == "__main__":
