@@ -12,7 +12,7 @@ def test_root(client):
     """Test the default route."""
 
     res = client.get('/')
-    assert b'Hello world! Hi ferozekhan' in res.data
+    assert b'Hi ferozekhan' in res.data
 
 
 def test_status(client):
