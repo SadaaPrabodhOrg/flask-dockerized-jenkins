@@ -16,3 +16,4 @@ six==1.11.0
 wcwidth==0.1.7
 Werkzeug==0.14.1
 zipp==0.5.2
+pathlib2==2.3.7
